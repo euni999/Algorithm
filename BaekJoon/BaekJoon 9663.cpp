@@ -8,7 +8,7 @@ int col[110];
 int N;
 int result = 0;
 
-bool promising(int i)
+bool promising(int i) 
 {
     int k=0;
 	
