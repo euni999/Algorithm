@@ -22,12 +22,12 @@ bool promising(int i)
 void queens(int i)
 {
     if(i == N)
-        result += 1;
+        result++;
     else {
-        for(int j=0; j<N; j++) {
+        for(int j=1; j<=N; j++) {
             col[i] = j;
             if(promising(i))
-               {queens(i+1);}
+               queens(i+1);
         }
     }
 }
