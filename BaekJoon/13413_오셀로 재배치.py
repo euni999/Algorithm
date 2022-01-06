@@ -9,6 +9,6 @@ for _ in range(test):
     for i in range(n):
         if (goal[i] != robot[i]):
             dif.append(robot[i])
-
+            
     result = max(dif.count('W'), dif.count('B'))
     print(result)
